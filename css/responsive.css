@@ -1,0 +1,76 @@
+/*recuperado de 
+https://www.lawebera.es/diseno-web/hacer-diseno-web-adaptable-responsive-design.php*/
+
+/*LAYOUT PARA VENTANA MENOR A 980PX*/
+@media screen and (max-width: 980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;
+    }
+}
+
+/*ANCHO DE DISPOSITIVO MÓVIL*/
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
+
+/*SI EL TAMAÑO DE PANTALLA ES MENOS DE 1200PX DE ANCHO*/
+@media (max-width: 1200px){ 
+        /* Styles! */
+}
+
+/*SI EL TAMAÑO DE PANTALLA ES MÁS DE 800PX DE ANCHO*/
+@media (min-width: 800px){ 
+        /* Styles! */
+}
+
+/*SI EL TAAMAÑO DE LA PANTALLA ESTÁ ENTRE 320PX Y 768PX DE ANCHO
+Y LA ORIENTACIÓN ESTÁ EN MODO HORIZONTAL*/
+@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
+        /* Styles! */
+}
+
+/*Recuperado de 
+https://tekla.io/blog/como-hacer-una-web-responsive-guia-completa/ */
+
+/*TABLAS*/
+table{
+	display: all;
+	flex-wrap: 100%; 
+
+    align-items: center;
+    height: 50vh;
+}
+
+div{
+    display: all;
+    flex-wrap: 100%;
+
+}
+
+footer{
+    display: all;
+    flex-wrap: 100%
+}
+
+button{
+    display: all;
+    flex-wrap: 100%;
+}
+
+/*Pagina que posiblemente ayude 
+https://www.estrellateyarde.org/manual-de-html/manual-de-html-responsive-web-design-diseno-web-adaptativo
+*/

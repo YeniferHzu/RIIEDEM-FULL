@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+	<title>Iniciar Sesión</title>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/header_and_footer.css">
+	<link rel="shortcut icon" type="text/css" href="icono.png"><!--Icono de las pestañas-->
+	<script src="https://kit.fontawesome.com/039479d257.js" crossorigin="anonymous"></script><!--Redes sociales-->
+</head>
+
+<body>
+
+<header id="main-header">
+		
+		<a id="logo-header" href="index.html">
+		<img class="icono" src="icono.png">	
+		<span class="site-name">RIIEDEM</span>
+		<span class="site-desc">Rspositorio Institucional para Instituciones Educativas Del Estado De México</span>
+	</a> <!-- / #logo-header -->
+</header><!-- / #main-header -->
+
+
+	<div class="div_con_texto"> <!--Inicio del contenido del cuerpo-->
+
+		<div class="div_con_texto2">
+
+		<h4 align="center">Repositorio Institucional Para Instituciones Educativas Del Estado De México</h4>
+		<br><br>
+
+				<form method="post" action="login.php" name="iniciar">
+						<table align="center">
+							<tr>
+								<div align="center">
+								<img class="icon-do" src="img/tutor.png">
+								</div>
+								<th colspan="2"><h2>Inicia Sesión</h2></th>
+							</tr>
+							<tr>
+								<th class="izquierdo"><label>Correo</label></th>
+								<td><input type="correo" name="correo" placeholder="tucorreo@email.com" required=""></td>
+							</tr>
+							<tr>
+								<th class="izquierdo"><label>Contraseña</label></th>
+								<td><input type="password" name="password" placeholder="Tu contraseña" placeholder="Contraseña" required=""></td>
+							</tr>
+							<tr>
+								<th colspan="2">
+									<button type="submit" name="login" value="login">Iniciar Sesión</button>
+					
+								</th>
+							</tr>
+							<tr>
+								<th colspan="2"><a href="recupera.html">¿Olvidaste tu contraseña?</a></th>
+							</tr>
+							<tr>
+								<th colspan="2"><a href="index.html">Atrás</a></th>
+							</tr>
+						</table>
+					</form>
+
+			</div><!--Div_Con_texto2-->
+	</div>
+
+</div>
+
+	<footer id="main-footer">
+		<a href="">
+			<i class="fa-brands fa-facebook"></i>
+		</a>
+		<a href="">
+			<i class="fa-brands fa-twitter"></i>
+		</a>
+		<a href="">
+			<i class="fa-solid fa-envelope"></i>
+		</a>
+		<p>&copy; 2023</p>
+	</footer>
+
+</body>
+</html>

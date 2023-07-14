@@ -1,0 +1,46 @@
+Problema No.8
+Sentencia de Seleccion
+
+//En este apartado es solo hacer sentencias IF/ELSE al momento de que el usuario introduzca el pais y su posterior mensaje. Como aqui te pide 3 condiciones, solo es coincidir el texto de los destinos al del usuario que escriba dicho destino. Correspondiente al mensaje del destino escrito
+
+Ejemplo:
+
+Si "Introduces Palma" y "Destino = Barcelona" se aplica un descuento del 5%.
+Si "introduces Palma" pero "Destino = Madrid" se aplica un descuento del 10%
+Si "introduces Palma" pero "Destino = Valencia" se aplica un descuento del 15%
+
+---Variables---
+TxtPais
+TxtDestino
+
+Introduce el Pais "TxtPais"
+Introduce el Destino "TxtDestino"
+
+--Sentencias IF / ELSE---
+
+IF TxtPais = "Palma" y TxtDestino = "Barcelona" 
+	mensaje = "Se aplicara el descuento del 5%
+ELSE
+TxtPais = "Palma" y TxtDestino = "Madrid"
+	mensaje = "Se aplicara el descuento del 10%
+ELSE
+TxtPais = "Palma" y TxtDestino = " Valencia"
+	mensaje = "Se aplicara el descuento del 15%
+ELSE
+mensaje = "No se aplicara descuento a su destino"
+
+-Ejercicio No.10-
+
+En este ejercicio no lo entiendo muy bien, por que si bien la condicion (IF) esta en el texto: "Si el mes de febrero es de 29 dias". Viendolo y pensandolo, no me da una idea clara de lo que se pide. Lo poco que te puedo ayudar asumiendo, las variables y la sentencia IF.
+
+--Variables--
+AñoInicio = '2020' 
+AñoFinal = '2030'
+mes
+
+"Introduzca el mes" = mes.
+--SENTENCIAS IF---
+IF mes = "Febrero"
+	mensaje = "Febrero tiene 29 dias".
+
+

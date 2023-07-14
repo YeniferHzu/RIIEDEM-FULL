@@ -1,0 +1,93 @@
+.div_con_texto{
+    position: all; /*Mantiene fija la tabla de contenido*/
+    margin: 20px;
+    overflow: scroll;
+    display: grid;
+
+}
+
+.div_con_texto2{
+     border-top-color: #1cb45c;
+     border-right-color: #1cb45c;
+     border-bottom-color: #1cb45c;
+     border-left-color: #1cb45c;
+     border-top: 1px solid #1cb45c;
+     border-bottom: 3px solid #1cb45c;    
+     border-top-width: 10px;
+     border-top-left-radius: 20px;      /*Esquina superior izquierda - redondea borde*/
+     border-right-width: 1em;
+     border-top-right-radius: 20px;     /*Esquina superior derecha*/
+     border-bottom-width: thick;
+     border-bottom-right-radius: 20px;  /*Esquina inferior derecha*/
+     border-left-width: thin;
+     border-bottom-left-radius: 20px;   /*Esquina inferior izquierda*/
+     background: #F8F8F8;               /*Color de fondo*/
+     margin-top: 100px;                 /*Espaciado superior*/
+     margin-right: 100px;               /*Espaciado derecho*/
+     margin-bottom: 100px;              /*Espaciado inferior*/
+     margin-left: 100px;                /*Espaciado izquierdo*/
+
+
+}
+
+/*BOTONES*/
+button{
+    font-size: 15px;
+    padding: 0px 25px 0px 25px; /*Los ceos tenian 5*/
+    outline: none;
+    border: none;
+    background-color: #1cb45c; /*Verde claro*/
+    color: white;
+    border-radius: 10px;
+    width: 130px; /*Ancho*/
+    height: 40px; /*Alto*/
+
+}
+
+button:hover{
+    background-color: #008442; /*Verde oscuro*/
+    cursor: pointer;
+}
+
+
+    /*ICONOS*/
+.icon-admin{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.icon-do{
+    width: 100px;
+    height: 100px;
+    
+}
+
+/*TEXTO DE TABLAS*/
+.izquierdo{
+    text-align: left;
+}
+
+/*HREF*/
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #1cb45c; /*Verde claro*/
+}
+a:hover{
+    color:  #008442; /*Verde oscuro*/
+    
+}
+
+/*POSICIÓN ICONO*/
+.icono{
+    float: left;
+    width: 50px; 
+    height: 50px;
+}
+
+/*TABLA*/
+.tabla{
+     
+     overflow: auto;
+}

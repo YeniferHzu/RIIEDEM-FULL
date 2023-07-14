@@ -1,0 +1,39 @@
+/**CABECERA*/
+#main-header {
+	background: #008442; /*Verde oscuro*/
+	color: white;
+	height: 80px;
+	
+	width: 100%;
+	left: 0;
+	top: 0;
+	margin-top: 0%;
+	position: inherit;
+}	
+#main-header a {
+	color: white;
+}
+	
+	
+/*LOGO*/
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+#logo-header:hover {
+	color: #1cb45c; /*Verde claro*/
+}
+	
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+	
+#logo-header .site-desc {
+	display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #FFFFFF;
+}
